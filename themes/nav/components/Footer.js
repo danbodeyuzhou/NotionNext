@@ -13,7 +13,6 @@ const Footer = ({ siteInfo }) => {
       {/* <hr className='pb-2' /> */}
 
       <div className='flex justify-center'>
-        <div>
           <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
           {siteConfig('AUTHOR')} © {`${copyrightDate}`}
       </div>
