@@ -14,10 +14,13 @@ const Footer = ({ siteInfo }) => {
 
       <div className='flex justify-center'>
           <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
-          {siteConfig('AUTHOR')} © {`${copyrightDate}`}
-      </div>
-      <div className='text-xs font-serif py-1'>
-        Powered By NotionNext
+         <div className='text-xs font-serif py-1'>
+            {siteConfig('AUTHOR')}
+         </div>
+            © {`${copyrightDate}`}
+         </div>
+      <div className='text-xs py-1'>
+         Powered By NotionNext
       </div>
       {siteConfig('BEI_AN') && (
         <>
