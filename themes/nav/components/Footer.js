@@ -15,20 +15,11 @@ const Footer = ({ siteInfo }) => {
       <div className='flex justify-center'>
         <div>
           <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
-          <a
-            href={siteConfig('LINK')}
-            className='underline font-bold text-gray-500 dark:text-gray-300 '>
-            {siteConfig('AUTHOR')}
-          </a>
-          .<br />
-        </div>
-        © {`${copyrightDate}`}
+          {siteConfig('AUTHOR')} © {`${copyrightDate}`}
       </div>
-
       <div className='text-xs font-serif py-1'>
         Powered By NotionNext
       </div>
-*/
       {siteConfig('BEI_AN') && (
         <>
           <i className='fas fa-shield-alt' />{' '}
