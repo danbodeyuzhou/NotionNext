@@ -13,11 +13,11 @@ const Footer = ({ siteInfo }) => {
       {/* <hr className='pb-2' /> */}
 
       <div className='flex justify-center'>
-          <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
-         <div className='text-xs font-serif py-1'>
-            {siteConfig('AUTHOR')}
-         </div>
-            © {`${copyrightDate}`}
+         <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
+         <div className='font-serif'>
+           {siteConfig('AUTHOR')}
+           <br>
+           © {`${copyrightDate}`}
          </div>
       <div className='text-xs py-1'>
          Powered By NotionNext
