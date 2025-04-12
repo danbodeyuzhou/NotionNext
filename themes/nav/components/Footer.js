@@ -16,7 +16,7 @@ const Footer = ({ siteInfo }) => {
          <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
          <div className='font-serif'>
            {siteConfig('AUTHOR')}
-           <br>
+           <br />
            © {`${copyrightDate}`}
          </div>
       <div className='text-xs py-1'>
