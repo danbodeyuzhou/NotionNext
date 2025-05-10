@@ -15,11 +15,11 @@ const Footer = ({ siteInfo }) => {
       <div className='flex justify-center'>
         <div>
           <i className='text-xs mx-1 animate-pulse fas fa-font-awesome' />
-//          <a
-//            href={siteConfig('LINK')}
-//            className='underline font-bold text-gray-500 dark:text-gray-300 '>
-            {siteConfig('AUTHOR')}
-//          </a>
+          <a
+            href={siteConfig('LINK')}
+            className='font-bold text-gray-500 dark:text-gray-300 '>
+            
+          </a>
           .<br />
         </div>
         © {`${copyrightDate}`}
